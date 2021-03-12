@@ -1,6 +1,6 @@
-from django.db import models
-
 """mapping of tables for api django app"""
+
+from django.db import models
 from django.db.models.deletion import CASCADE
 
 
