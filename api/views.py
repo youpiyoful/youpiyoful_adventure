@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from django.shortcuts import render
 from rest_framework import generics, permissions
 
-from api import permissions, serializers
+from api import serializers
 from api.models import Post
 from api.permissions import IsOwnerOrReadOnly
 
